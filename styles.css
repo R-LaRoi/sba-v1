@@ -1,3 +1,6 @@
+body {
+}
+
 nav {
   position: fixed;
   padding: 2rem;
@@ -33,6 +36,7 @@ nav {
   grid-template-areas:
     "row1 column2"
     "row2 column2";
+  font-family: "Barlow", sans-serif;
 }
 
 .column2 {
@@ -45,6 +49,30 @@ nav {
 .row2 {
   grid-area: row2;
   background: #f5f0ea;
+  h1 {
+    font-size: 9rem;
+    color: #4d2414;
+  }
+
+  .content-row-2 {
+    line-height: 0.8;
+    padding: 1.5rem;
+    display: flex;
+    margin-top: 40%;
+
+    p {
+      margin-top: 30%;
+      font-size: 0.7rem;
+      text-align: end;
+    }
+  }
+
+  .barcode {
+    font-family: "Libre Barcode 39 Extended", system-ui;
+    font-size: 10rem;
+    color: #4d2414;
+    padding-left: 10px;
+  }
 }
 
 .header-img {
@@ -54,9 +82,10 @@ nav {
 .sec-two {
   height: 100vh;
   background: #4d2414;
-
+  font-family: "Barlow", sans-serif;
   color: #e4daca;
   font-size: 2rem;
+  font-weight: 100;
 
   p {
     padding: 15% 30%;
