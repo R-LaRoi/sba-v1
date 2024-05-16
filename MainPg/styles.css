@@ -1,0 +1,22 @@
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.4fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "row1 column2"
+    "row2 column2";
+}
+
+.column2 {
+  grid-area: column2;
+  border: 5px solid green;
+}
+.row1 {
+  grid-area: row1;
+  background: #e4daca;
+}
+.row2 {
+  grid-area: row2;
+  background: #f5f0ea;
+}
