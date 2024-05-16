@@ -5,10 +5,12 @@ nav {
   position: fixed;
   padding: 2rem;
   font-size: 1rem;
-
+  font-family: "Barlow", sans-serif;
   h3 {
     letter-spacing: 2px;
     color: #a34a26db;
+
+    font-weight: 800;
   }
 }
 
@@ -18,6 +20,8 @@ nav {
     list-style: none;
     float: right;
     gap: 50px;
+    color: #5b382b;
+    font-size: 1.4rem;
   }
 }
 
@@ -62,7 +66,7 @@ nav {
 
     p {
       margin-top: 30%;
-      font-size: 0.7rem;
+      font-size: 1.5rem;
       text-align: end;
     }
   }
@@ -163,4 +167,14 @@ footer {
   height: 300px;
   padding: 5rem;
   color: #4d2414af;
+
+  ul {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #5b382b;
+    padding: 0;
+  }
 }
