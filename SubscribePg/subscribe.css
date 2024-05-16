@@ -1,0 +1,8 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  border-bottom: 5px solid #a34a26db;
+}
