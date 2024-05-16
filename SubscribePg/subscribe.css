@@ -3,7 +3,7 @@ nav {
   padding: 4rem;
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
-  background: #e4daca;
+  background: #fff7e9;
   width: 100%;
   height: 200px;
   h3 {
@@ -31,5 +31,63 @@ nav {
     gap: 50px;
     color: #5b382b;
     font-size: 1.4rem;
+  }
+}
+
+.sec-two {
+  background: #fff6e9;
+  padding: 4rem;
+
+  .sec-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    height: 80vh;
+  }
+}
+
+.sec-three {
+  background: #4d2414;
+  padding: 4rem;
+
+  .sec-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+
+  .column-1 {
+    background: white;
+    border-top: #e4daca 190px solid;
+  }
+  .sq-1 {
+    height: min-content;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .col-content {
+    flex-direction: column;
+    padding: 3rem 7rem;
+    margin-top: 30%;
+  }
+  h3 {
+    font-size: 4rem;
+    color: #4d2414;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #4d2414;
+  }
+  .btn-primary {
+    background: #4d2414;
+    border: #4d2414;
+    padding: 1rem;
   }
 }
