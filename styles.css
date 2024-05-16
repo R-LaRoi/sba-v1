@@ -46,20 +46,18 @@
 
 .sec-three {
   background: #e5e0da;
-  height: 100vh;
+
   padding: 4rem;
 
   .sec-container {
-    height: 90vh;
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
       "column-1 sq-1 sq-2"
-      "column-1 sq-3 sq-4"
-      ". . .";
+      "column-1 sq-3 sq-4";
   }
 
   .column-1 {
@@ -80,4 +78,37 @@
   .sq-4 {
     grid-area: sq-4;
   }
+
+  .collection-img {
+    width: 100%;
+  }
+
+  .col-content {
+    flex-direction: column;
+    padding: 3rem 7rem;
+    margin-top: 70%;
+  }
+  h3 {
+    font-size: 4rem;
+    color: #4d2414;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #4d2414;
+  }
+  .btn-primary {
+    background: #4d2414;
+    border: #4d2414;
+    padding: 1rem;
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #e4daca;
+  height: 300px;
+  padding: 5rem;
 }
