@@ -28,3 +28,56 @@
 .header-img {
   width: 100%;
 }
+
+.sec-two {
+  height: 100vh;
+  background: #4d2414;
+
+  color: #e4daca;
+  font-size: 2rem;
+
+  p {
+    padding: 15% 30%;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 200;
+  }
+}
+
+.sec-three {
+  background: #e5e0da;
+  height: 100vh;
+  padding: 4rem;
+
+  .sec-container {
+    height: 90vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "column-1 sq-1 sq-2"
+      "column-1 sq-3 sq-4"
+      ". . .";
+  }
+
+  .column-1 {
+    grid-area: column-1;
+    background: white;
+  }
+  .sq-1 {
+    grid-area: sq-1;
+  }
+  .sq-2 {
+    grid-area: sq-2;
+    background: #faf3eb;
+  }
+  .sq-3 {
+    grid-area: sq-3;
+    background: #ebe7e1;
+  }
+  .sq-4 {
+    grid-area: sq-4;
+  }
+}
