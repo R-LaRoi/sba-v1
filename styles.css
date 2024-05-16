@@ -1,8 +1,30 @@
-.--nav {
-  position: absolute;
-  background: transparent;
+nav {
+  position: fixed;
+  padding: 2rem;
+  font-size: 1rem;
+
+  h3 {
+    letter-spacing: 2px;
+    color: #a34a26db;
+  }
 }
 
+.--nav {
+  ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    gap: 50px;
+  }
+}
+
+.circle {
+  color: #4d241476;
+  font-size: 2rem;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 50%;
+}
 .header-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -111,4 +133,5 @@ footer {
   background: #e4daca;
   height: 300px;
   padding: 5rem;
+  color: #4d2414af;
 }
