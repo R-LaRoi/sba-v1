@@ -4,7 +4,7 @@ nav {
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
   background: #e4daca;
-  width: 100%;
+  /* width: 100%; */
   height: 200px;
   h3 {
     letter-spacing: 2px;
@@ -26,7 +26,7 @@ nav {
   ul {
     display: flex;
     list-style: none;
-    float: right;
+    /* float: right; */
     gap: 50px;
     color: #5b382b;
     font-size: 1.4rem;
@@ -35,10 +35,10 @@ nav {
 
 .product-page {
   background: #ffffff;
-  height: 100vh;
+
   font-family: "Barlow";
+  margin-bottom: 10rem;
   .product-profile {
-    padding: 10rem 8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -47,6 +47,7 @@ nav {
   }
 
   .product-image {
+    width: 100%;
   }
 
   .product-content {
@@ -54,6 +55,21 @@ nav {
     padding: 7rem;
   }
 
+  .product-price {
+  }
+
+  .btn-outline-secondary {
+    background: none;
+    color: #452617;
+    border: 1px solid #5b382b;
+  }
+  .cart {
+    background: #5b382b;
+    color: #dfdddc;
+    border: 1px solid wheat;
+    width: 200px;
+    padding: 1rem;
+  }
   h1 {
     font-size: 6rem;
     color: #4d2414;
@@ -65,5 +81,45 @@ nav {
     color: #45281d;
     font-size: 1.8rem;
     line-height: 1.2;
+  }
+}
+
+.product-grid {
+  background-color: #faf8f5;
+  margin-bottom: 8rem;
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    gap: 5px;
+  }
+
+  .img-grid {
+    width: 85%;
+    padding-top: 5rem;
+  }
+
+  .product-details {
+    font-size: 0.8rem;
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #e4daca;
+  height: 300px;
+  padding: 5rem;
+  color: #4d2414af;
+
+  ul {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #5b382b;
+    padding: 0;
   }
 }
