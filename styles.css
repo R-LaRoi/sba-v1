@@ -1,3 +1,8 @@
+.--nav {
+  position: absolute;
+  background: transparent;
+}
+
 .header-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,7 +15,6 @@
 
 .column2 {
   grid-area: column2;
-  border: 5px solid green;
 }
 .row1 {
   grid-area: row1;
@@ -19,4 +23,8 @@
 .row2 {
   grid-area: row2;
   background: #f5f0ea;
+}
+
+.header-img {
+  width: 100%;
 }
