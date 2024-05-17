@@ -111,7 +111,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #e4daca;
-  height: 300px;
+  height: 350px;
   padding: 5rem;
   color: #4d2414af;
 
@@ -123,6 +123,17 @@ footer {
     list-style: none;
     color: #5b382b;
     padding: 0;
+  }
+  .ft-btn {
+    margin-top: 10px;
+    background: #4d2414;
+    border: #4d2414;
+    padding: 10px;
+    color: white;
+  }
+
+  .ft-btn:hover {
+    background-color: #9a532fdb;
   }
 }
 

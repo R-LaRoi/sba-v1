@@ -161,7 +161,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #e4daca;
-  height: 300px;
+  height: 350px;
   padding: 5rem;
   color: #4d2414af;
 
@@ -182,13 +182,22 @@ footer {
     padding: 0;
   }
 
-  li:hover {
+  li:hover,
+  .ft-btn:hover {
     color: #e87a43db;
+  }
+
+  .ft-btn {
+    margin-top: 10px;
+    background: #4d2414;
+    border: #4d2414;
+    padding: 10px;
+    color: white;
   }
 }
 
 /* ------------------  media queries ---------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 993px) {
   .header-grid {
     display: flex;
     flex-direction: column-reverse;
