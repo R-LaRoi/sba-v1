@@ -73,6 +73,7 @@ nav {
     font-size: 6rem;
     color: #4d2414;
     font-weight: 400;
+    animation: slide-up-fade 3s forwards;
   }
 
   h3,
@@ -80,6 +81,7 @@ nav {
     color: #45281d;
     font-size: 1.8rem;
     line-height: 1.2;
+    animation: slide-up-fade 3s forwards;
   }
 }
 
@@ -190,4 +192,18 @@ footer {
 }
 
 @media screen and (max-width: 568px) {
+}
+
+@keyframes slide-up-fade {
+  from {
+    top: 200px;
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    top: 100px;
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

@@ -54,6 +54,7 @@ nav {
   h3 {
     font-size: 4rem;
     color: #4d2414;
+    animation: slide-up-fade 3s forwards;
   }
 
   p {
@@ -268,5 +269,19 @@ footer {
     height: max-content;
     padding: 5rem;
     color: #4d2414af;
+  }
+}
+
+@keyframes slide-up-fade {
+  from {
+    top: 200px;
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  to {
+    top: 100px;
+    opacity: 1;
+    transform: translateY(0%);
   }
 }
