@@ -23,17 +23,6 @@ nav {
   }
 }
 
-/* .--nav {
-  ul {
-    display: flex;
-    list-style: none;
-    float: right;
-    gap: 50px;
-    color: #5b382b;
-    font-size: 1.4rem;
-  }
-} */
-
 .circle {
   color: #4d241476;
   font-size: 2rem;

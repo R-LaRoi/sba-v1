@@ -22,16 +22,6 @@ nav {
     cursor: pointer;
   }
 }
-.--nav {
-  ul {
-    display: flex;
-    list-style: none;
-    float: right;
-    gap: 50px;
-    color: #5b382b;
-    font-size: 1.4rem;
-  }
-}
 
 .sec-one {
   background: #4d2414;
@@ -164,5 +154,113 @@ footer {
     list-style: none;
     color: #5b382b;
     padding: 0;
+  }
+}
+
+/*  ----------media queries ----------- */
+@media screen and (max-width: 768px) {
+  .sec-one {
+    padding: 3.5rem 1rem;
+    .sec-container {
+      background-color: white;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    h3 {
+      font-size: 2rem;
+      color: #4d2414;
+    }
+
+    .column-1 {
+      border-top: #e4daca 90px solid;
+    }
+
+    .col-content {
+      flex-direction: column;
+      padding: 5rem 1rem;
+      margin-top: 30%;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .sec-two {
+    background: #fff8f0;
+    padding: 0rem;
+
+    .sec-container {
+      /* background-color: rgb(225, 225, 225); */
+      display: grid;
+      /* grid-template-columns: 1fr 1fr; */
+      margin-top: 10%;
+      height: 90vh;
+      border-radius: 5px;
+    }
+  }
+
+  .--form {
+    margin: auto;
+    width: 90%;
+    border-top: 60px solid #a34a26db;
+    background: white;
+    padding: 1rem;
+    font-family: "Barlow", sans-serif;
+    color: #4d2414;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    h1 {
+      font-size: 4vw;
+      text-transform: uppercase;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .barcode {
+      font-family: "Libre Barcode 39 Extended", system-ui;
+      font-size: 3rem;
+      color: #4d2414;
+      padding-left: 0px;
+      line-height: 0.7;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 6px 10px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #5b5858;
+      border-radius: 20px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #272727;
+      color: white;
+      padding: 14px 20px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #4d2414;
+    }
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #e4daca;
+    height: max-content;
+    padding: 5rem;
+    color: #4d2414af;
   }
 }
