@@ -73,11 +73,8 @@ nav {
   padding: 6rem;
 
   .sec-container {
-    /* background-color: rgb(225, 225, 225); */
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     margin-top: 10%;
-    height: 90vh;
     border-radius: 5px;
   }
 }
@@ -86,10 +83,10 @@ nav {
 
 .--form {
   margin: auto;
-  width: 50%;
+  /* width: 50%; */
   border-top: 160px solid #a34a26db;
   background: white;
-  padding: 9rem;
+  padding: 10rem;
   font-family: "Barlow", sans-serif;
   color: #4d2414;
   font-weight: 400;
@@ -203,9 +200,7 @@ footer {
     padding: 0rem;
 
     .sec-container {
-      /* background-color: rgb(225, 225, 225); */
       display: grid;
-      /* grid-template-columns: 1fr 1fr; */
       margin-top: 10%;
       height: 90vh;
       border-radius: 5px;

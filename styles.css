@@ -74,18 +74,18 @@ nav {
 }
 
 .sec-two {
-  height: 100vh;
   background: #4d2414;
   font-family: "Barlow", sans-serif;
   color: #e4daca;
   font-size: 2rem;
   font-weight: 100;
+  padding: 17rem;
+  height: max-content;
+  border-bottom: 90px solid #cd6e4b;
 
   p {
-    padding: 10% 30%;
     text-align: left;
     line-height: 1.2;
-    font-weight: 200;
   }
 }
 
@@ -231,14 +231,14 @@ footer {
     background: #4d2414;
     font-size: 1rem;
     font-weight: 100;
+    padding: 20%;
+    border-bottom: 90px solid #cd6e4b;
 
     p {
-      padding: 20% 15%;
       text-align: left;
       justify-content: space-evenly;
       line-height: 1.2;
       font-weight: 200;
-      border-bottom: 90px solid #cd6e4b;
     }
   }
 
@@ -270,7 +270,7 @@ footer {
       margin-top: 10%;
     }
     h3 {
-      font-size: 4rem;
+      font-size: 3rem;
       color: #4d2414;
       font-weight: 400;
       text-transform: lowercase;

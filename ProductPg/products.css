@@ -57,9 +57,6 @@ nav {
     padding: 7rem;
   }
 
-  .product-price {
-  }
-
   .btn-outline-secondary {
     background: none;
     color: #452617;
@@ -173,14 +170,6 @@ footer {
   .product-grid {
     background-color: #faf8f5;
     margin-bottom: 8rem;
-
-    .flex-container {
-      /* display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: space-between;
-      padding: 2.5rem;
-      gap: 5px; */
-    }
 
     .img-grid {
       width: 85%;
