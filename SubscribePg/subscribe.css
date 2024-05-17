@@ -1,25 +1,27 @@
 nav {
   position: fixed;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
   h3 {
     letter-spacing: 2px;
     color: #a34a26db;
-
     font-weight: 800;
   }
 
-  a {
+  a.nav-link {
     text-decoration: none;
     color: #cd6e4b;
+    font-size: 1.5rem;
   }
 
-  a:hover {
+  a.nav-link:hover {
+    text-decoration: none;
+    color: #201f1f;
     border-bottom: 5px solid #a34a26db;
+    cursor: pointer;
   }
 }
-
 .--nav {
   ul {
     display: flex;
@@ -95,7 +97,6 @@ nav {
 .--form {
   margin: auto;
   width: 50%;
-
   border-top: 160px solid #a34a26db;
   background: white;
   padding: 9rem;
@@ -105,7 +106,7 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
   h1 {
-    font-size: 4rem;
+    font-size: 4vw;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
@@ -113,7 +114,7 @@ nav {
 
   .barcode {
     font-family: "Libre Barcode 39 Extended", system-ui;
-    font-size: 7rem;
+    font-size: 4rem;
     color: #4d2414;
     padding-left: 10px;
     line-height: 0.7;

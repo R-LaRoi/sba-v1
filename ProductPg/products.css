@@ -1,23 +1,25 @@
 nav {
   position: fixed;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1rem;
   font-family: "Barlow", sans-serif;
-
   h3 {
     letter-spacing: 2px;
     color: #a34a26db;
     font-weight: 800;
   }
 
-  a {
+  a.nav-link {
     text-decoration: none;
     color: #cd6e4b;
+    font-size: 1.5rem;
   }
 
-  a:hover {
+  a.nav-link:hover {
+    text-decoration: none;
+    color: #201f1f;
     border-bottom: 5px solid #a34a26db;
-    font-size: 1.5rem;
+    cursor: pointer;
   }
 }
 
@@ -122,4 +124,70 @@ footer {
     color: #5b382b;
     padding: 0;
   }
+}
+
+@media screen and (max-width: 1088px) {
+  .product-page {
+    font-family: "Barlow";
+    margin-bottom: 10rem;
+    border-top: 150px solid #4d2414;
+
+    & h3,
+    & p {
+      color: rgb(69, 40, 29);
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+
+    .product-profile {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 3rem;
+    }
+
+    .product-image {
+      width: 100%;
+    }
+
+    .product-content {
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .product-grid {
+    background-color: #faf8f5;
+    margin-bottom: 8rem;
+
+    .flex-container {
+      /* display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+      padding: 2.5rem;
+      gap: 5px; */
+    }
+
+    .img-grid {
+      width: 85%;
+      padding-top: 5rem;
+    }
+
+    .product-details {
+      font-size: 0.8rem;
+    }
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: max-content;
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
 }
